@@ -1,6 +1,6 @@
 <odoo>
 <!-- Add Icon File for  -->
-<menuitem id="menu_content_selection_root" name="HMS" web_icon="contact_role_manager,static/description/icon.png" sequence="35"/>
+<menuitem id="menu_content_selection_root" name="contact_selection" web_icon="contact_role_manager,static/description/icon.png" sequence="35"/>
     <!-- Add partner field to product form -->
     <record id="view_product_template_form_inherit" model="ir.ui.view">
         <field name="name">product.template.form.inherit</field>
