@@ -5,16 +5,16 @@ class ProductTemplate(models.Model):
     
     manufacturer_id = fields.Many2one(
         'res.partner',
-        string='Associated Manufacturer',
+        string='Manufacturer',
         domain="[('customer_tag_Type', '=', 'mf')]"
     )
     supplier_id = fields.Many2one(
         'res.partner',
-        string='Associated Supplier',
-        domain="[('custom_contact_types', '=', 'sup')]"
+        string='Supplier',
+        domain="[('customer_tag_Type', '=', 'sup')]"
     )
     customer_id = fields.Many2one(
         'res.partner',
-        string='Associated Customer',
-        domain="[('custom_contact_types.key', '=', 'cu')]"
+        string='Customer',
+        domain="[('customer_tag_Type', '=', 'cu')]"
     )

@@ -17,7 +17,7 @@
         'security/ir.model.access.csv',
         'views/contact_selection_views.xml',
         'views/contact_product_views.xml',
-        'views/contact_type_list.xml',
+     
     ],
     'application': True,
     'installable': True,

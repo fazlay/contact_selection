@@ -27,12 +27,7 @@
             </field>
     </record>
 
-        <!-- <menuitem id="res_partner_type_menu_config"
-        name="Types"
-        parent="menu_contacts"
-        groups="base.group_system"
-        sequence="2"/> -->
-
+      
         <menuitem id="menu_partner_contact_type_form"
         action="action_contact_type"
         name="Contact Types"
