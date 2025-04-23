@@ -1,0 +1,17 @@
+<odoo>
+  <data>
+         <record id="view_partner_form_inherit" model="ir.ui.view">
+            <field name="name">contact.selection.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+             <xpath expr="//field[@name='vat']" position="after">
+                <field name="customer_tag_Type" widget="radio" options="{'Vertical': True}"/>
+            </xpath>
+             </field>
+        
+        </record>
+
+  </data>
+</odoo>
