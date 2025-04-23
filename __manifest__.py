@@ -1,26 +1,25 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "contact-selection",
+    'name': "Contact Role Manager",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Categorize partners as Customers, Suppliers, or Manufacturers 
+        and link them to products""",
 
-    'description': """
-        Long description of module's purpose
-    """,
-
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Metamorphosis",
+    'website': "https://metamorphosis.com.bd/",
     'category': 'Uncategorized',
-    'version': '17.0',
+    'version': '17.0.0.1',
+    'license': 'AGPL-3',
     'depends': ['base','product'],
 
-    # always loaded
     'data': [
         'security/ir.model.access.csv',
         'views/contact_selection_views.xml',
         'views/contact_product_views.xml',
         'views/contact_type_list.xml',
     ],
+    'application': True,
+    'installable': True,
+    'auto_install': False,
 }
