@@ -8,7 +8,7 @@
 
     'author': "Metamorphosis",
     'website': "https://metamorphosis.com.bd/",
-    'category': 'Uncategorized',
+    'category': 'Tools/Tools',
     'version': '17.0.0.1',
     'license': 'AGPL-3',
     'depends': ['base','product'],
